@@ -17,10 +17,10 @@ public class MethodReference {
             }
         });
 
-        // Using a lambda expression
+        //lambda expression
         execute(car, c -> mechanic.fix(c));
 
-        // Using a method reference
+        //  method reference
         execute(car, mechanic::fix);
 
     }
